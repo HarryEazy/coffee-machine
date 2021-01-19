@@ -125,21 +125,3 @@ while not stop_machine:
         print("Incorrect choice, please try again")
 
 
-# 2.Turn off the Coffee Machine by entering “​off​” to the prompt.a.For maintainers of the coffee machine, they can use “off”
-# as the secret word to turn off the machine. Your code should end execution when this happens
-
-# 3.Print report.a.When the user enters “report” to the prompt, a report should be generated that shows
-# the current resource values. e.g.
-# Water: 100ml
-# Milk: 50ml
-# Coffee: 76g
-# Money: $2.5
-
-# 4.Check resources sufficient?a.When the user chooses a drink, the program should check if there are enough
-# resources to make that drink.b.E.g. if Latte requires 200ml water but there is only 100ml left in the machine.
-#  It should not continue to make the drink but print: “​Sorry there is not enough water.​”c.The same should happen if another resource is depleted,
-#   e.g. milk or coffee
-
-# 5.Process coins.a.If there are sufficient resources to make the drink selected, then the program should
-# prompt the user to insert coins.b.Remember that quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01c.
-# Calculate the monetary value of the coins inserted. E.g. 1 quarter, 2 dimes, 1 nickel, 2pennies = 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
