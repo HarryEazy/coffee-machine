@@ -1,5 +1,5 @@
 # coffee-machine
 
-Simple coffee machine program. Built to gain more experience using OOP in python.
+Simple coffee machine program.
 
 Built wiht python.
